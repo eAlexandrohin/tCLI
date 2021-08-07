@@ -1,6 +1,6 @@
 # tCLI
-tCLI - Twitch Command-Line Interface, very simple CLI for the Twitch.
-Pronounce like that: "ticly", similar to "tickly" or "tickle".
+Little, very simple [CLI](https://en.wikipedia.org/wiki/Command-line_interface) of twitch for Windows.<br>
+Pronounce like that: "tickly", as in "tickle".
 ## Installation
 [Download](https://github.com/eAlexandrohin/tCLI/releases), install it and you good to go.
 ## Auth
@@ -10,18 +10,18 @@ Just type in cmd:
 tcli
 ```
 
-It will automaticly start auth.
+It will automaticly start authentication.
 - You will get asked for your twitch login, like this, type it and press "Enter":
 ```
 login: [your login here]
 ```
-- After it, tCLI will be opened your default browser and you will need to authorize in the TwitchAPI.
+- After it, tCLI will open your default browser and you will need to authorize in the TwitchAPI.
 - You will get sent to the "localhost" with your auth token. 
 - Copy it and paste it, back in cmd, here:
 ```
 token: [your token]
 ```
-- After it, you will probably see, if you did all right:
+- After it, you will probably see this, if you did all right:
 ```
 Successful!
 ```
@@ -31,28 +31,31 @@ If you need to logout from your account, and login in different, just type and r
 ```
 tcli auth
 ```
+#### _You need to switch your account on twitch in default browser, before you go to switching in tCLI._<br>
 ### Deleting your auth data
-It stores in program folder:
+It stored in your documents folder:
 ```
-C:/Program Files (x86)/tCLI
+C:/Users/[Username]/Documents/tCLI
 ```
 - Delete ".cfg" file.
 
 ## Usage
-Simple 
 ```
-tcli
+tcli [command] [username] [...arguments]
 ```
-will show live streams from your follows.
+Simple `tcli` will show live streams from your follows.
 ### Commands
-Usage: `tcli [command] [argument]`.
-- `help` returns all avaliable commands.
-  - `[command]` for specialized command.
-- `auth` for repeating auth process.
-- `follows` returns your follows.
-  - `[username]` returns follows of that username.
-- `live` default, shows up all live streams, that you follow.
-  - `[broadcaster]` checks if specialized user is live, if yes to returns data about its stream.
-- `login` returns data about your account.
-  - `[username]` returns data about specialized user.
-##### License: MIT
+> Tip: you can see this, in tCLI itself, by using: `tcli help`.
+- `help` returns all avaliable commands
+  - `[command]` for specified command
+- `auth` for repeating auth process
+- `follows` returns your follows
+  - `[username]` returns follows of that specified username
+- `live` default, shows up all live streams, that you follow
+  - `[broadcaster]` checks if specified user is live, if yes to returns data about its stream
+- `login` returns data about your account
+  - `[username]` returns data about specified user
+## Credits 
+Uses NodeJS and such modules: [`node-fetch`](https://github.com/node-fetch/node-fetch), [`express`](https://expressjs.com/), [`open`](https://www.npmjs.com/package/open), [`twitch-m3u8`](https://github.com/dudik/twitch-m3u8), [`clipboardy`](https://www.npmjs.com/package/clipboardy), [`readline`](https://nodejs.org/api/readline.html), [`path`](https://nodejs.org/api/path.html), [`os`](https://nodejs.org/api/os.html), [`fs`](https://nodejs.org/api/fs.html).
+___
+##### License: __MIT__
