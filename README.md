@@ -27,6 +27,14 @@ token: [your token]
 Successful!
 ```
 You're done!
+### Expiring auth tokens
+Somewhen your token will be expired, but dont worry you're safe.<br>
+You will get message about it and you will proceeded to reauth:
+```
+Your token has been expired or incorrect.
+You will be proceeded to authentication.
+```
+After that, you will again be able to use tCLI!
 ### Switching accounts
 If you need to logout from your account, and login in different, just type and repeate auth process:
 ```
@@ -63,6 +71,8 @@ Simple `tcli` will show live streams your followings.
 - `vods` returns vods by the time, from your follows
   - `[username]` returns vods of the specified username
   - `f` sets titles to full
+# Community
+Feel free to post errors, contact me and stuff. You're welcome!
 ## Credits 
 Uses NodeJS and such modules: [`node-fetch`](https://github.com/node-fetch/node-fetch), [`express`](https://expressjs.com/), [`open`](https://www.npmjs.com/package/open), [`twitch-m3u8`](https://github.com/dudik/twitch-m3u8), [`readline`](https://nodejs.org/api/readline.html), [`moment`](https://momentjs.com/), [`copy-paste`](https://github.com/xavi-/node-copy-paste), [`path`](https://nodejs.org/api/path.html), [`os`](https://nodejs.org/api/os.html), [`fs`](https://nodejs.org/api/fs.html).
 ___
