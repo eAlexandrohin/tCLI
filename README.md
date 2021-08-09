@@ -43,19 +43,26 @@ C:/Users/[Username]/Documents/tCLI
 ```
 tcli [command] [username] [...arguments]
 ```
-Simple `tcli` will show live streams from your follows.
+Simple `tcli` will show live streams your followings.
 ### Commands
-> Tip: you can see this, in tCLI itself, by using: `tcli help`.
-- `help` returns all avaliable commands
-  - `[command]` for specified command
+> Tip: you can see basic version of this, in tCLI itself, by using: `tcli help`.
+- `f` sets titles to full
 - `auth` for repeating auth process
+- `following [from] [to]` returns boolean of check if "from" user is following "to" user
 - `follows` returns your follows
   - `[username]` returns follows of that specified username
-- `live` default, shows up all live streams, that you follow
-  - `[broadcaster]` checks if specified user is live, if yes to returns data about its stream
+- `help` returns all avaliable commands
+  - `[command]` for specified command
+- `link [username]` copies link to the stream of specified streamer, default quality is source
+  - `[quality]` you can specify the quality, as in twitch player: 1080p60, 720p60, 720p and etc 
+- `live` default, shows up all live streams, that you following
+  - `[username]` checks if specified user is live, if yes to returns data about its stream
 - `login` returns data about your account
   - `[username]` returns data about specified user
+- `vods` returns vods by the time, from your follows
+  - `[username]` returns vods of the specified username
+  - `f` sets titles to full
 ## Credits 
-Uses NodeJS and such modules: [`node-fetch`](https://github.com/node-fetch/node-fetch), [`express`](https://expressjs.com/), [`open`](https://www.npmjs.com/package/open), [`twitch-m3u8`](https://github.com/dudik/twitch-m3u8), [`clipboardy`](https://www.npmjs.com/package/clipboardy), [`readline`](https://nodejs.org/api/readline.html), [`path`](https://nodejs.org/api/path.html), [`os`](https://nodejs.org/api/os.html), [`fs`](https://nodejs.org/api/fs.html).
+Uses NodeJS and such modules: [`node-fetch`](https://github.com/node-fetch/node-fetch), [`express`](https://expressjs.com/), [`open`](https://www.npmjs.com/package/open), [`twitch-m3u8`](https://github.com/dudik/twitch-m3u8), [`readline`](https://nodejs.org/api/readline.html), [`moment`](https://momentjs.com/), [`copy-paste`](https://github.com/xavi-/node-copy-paste), [`path`](https://nodejs.org/api/path.html), [`os`](https://nodejs.org/api/os.html), [`fs`](https://nodejs.org/api/fs.html).
 ___
 ##### License: __MIT__
