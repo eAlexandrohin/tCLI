@@ -3,7 +3,7 @@
 Little, very simple [CLI](https://en.wikipedia.org/wiki/Command-line_interface) of twitch for Windows.<br>
 Pronounce like that: "tickly", as in "tickle".
 ## Installation
-[Download](https://github.com/eAlexandrohin/tCLI/releases/tag/v1.0), install it and you good to go.
+[Download](https://github.com/eAlexandrohin/tCLI/releases/tag/v1.1), install it and you good to go.
 ## Auth
 Firstly, you need to authenticate.
 Just type in cmd:
