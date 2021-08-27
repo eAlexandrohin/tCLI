@@ -3,7 +3,7 @@
 Little, very simple [CLI](https://en.wikipedia.org/wiki/Command-line_interface) of twitch for Windows.<br>
 Pronounce like that: "tickly", as in "tickle".
 ## Installation
-[Download](https://github.com/eAlexandrohin/tCLI/releases/tag/v1.1), install it and you good to go.
+[Download](https://github.com/eAlexandrohin/tCLI/releases/tag/v1.2), install it and you good to go.
 ## Auth
 Firstly, you need to authenticate.
 Just type in cmd:
@@ -62,8 +62,10 @@ Simple `tcli` will show live streams your followings.
   - `[username]` returns follows of that specified username
 - `help` returns all avaliable commands
   - `[command]` for specified command
-- `link [username]` copies link to the stream of specified streamer, default quality is source
+- `link [username]` copies link to the stream of specified streamer, for using in VLC, for example, default quality is source
   - `[quality]` you can specify the quality, as in twitch player: 1080p60, 720p60, 720p and etc 
+  - `-v [username]` you can choose vod, that you want to watch and it will copy its link, default quality is source
+    - `[quality]` specifying quality, as in twitch player
 - `live` default, shows up all live streams, that you following
   - `[username]` checks if specified user is live, if yes to returns data about its stream
 - `login` returns data about your account
