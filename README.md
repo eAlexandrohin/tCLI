@@ -3,7 +3,7 @@
 Little, very simple [CLI](https://en.wikipedia.org/wiki/Command-line_interface) of twitch for Windows.<br>
 Pronounce like that: "tickly", as in "tickle".
 ## Installation
-[Download](https://github.com/eAlexandrohin/tCLI/releases/tag/v1.2), install it and you good to go.
+[Download](https://github.com/eAlexandrohin/tCLI/releases/tag/v1.3), install it and you good to go.
 ## Auth
 Firstly, you need to authenticate.
 Just type in cmd:
@@ -70,6 +70,9 @@ Simple `tcli` will show live streams your followings.
   - `[username]` checks if specified user is live, if yes to returns data about its stream
 - `login` returns data about your account
   - `[username]` returns data about specified user
+- `teams` returns all teams that you had joined
+  - `[teamName]` returns all members of the specified team
+  - `-a [username]` returns all teams that specified streamer had joined
 - `vods` returns vods by the time, from your follows
   - `[username]` returns vods of the specified username
   - `f` sets titles to full
