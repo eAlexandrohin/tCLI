@@ -56,7 +56,7 @@ Simple `tcli` will show live streams your followings.
 > Tip: you can see basic version of this, in tCLI itself, by using: `tcli help`.
 - `-f` sets titles to full
 - `auth` for repeating auth process
-- `clips [username]` gets 100 clips from specified user sorted by views
+- `clips [username]` gets 100 clips from specified streamer sorted by views for 30 days
   - `-id [clipID]` returns data about specified clip
     - `-c [clipID]` copies link to the clip
 - `following [from] [to]` returns boolean of check if "from" user is following "to" user
@@ -77,7 +77,7 @@ Simple `tcli` will show live streams your followings.
   - `-a [username]` returns all teams that specified streamer had joined
 - `vods` returns vods by the time, from your follows
   - `[username]` returns vods of the specified username
-  - `f` sets titles to full
+  - `-f` sets titles to full
 # Community
 Feel free to post errors, contact me and stuff. You're welcome!
 ## Credits 
