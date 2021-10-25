@@ -11,22 +11,21 @@ Just type in cmd:
 tcli
 ```
 
-It will automaticly start authentication.
-- You will get asked for your twitch login, like this, type it and press "Enter":
+It will automaticly start authentication by opening your default browser.
 ```
-login: [your login here]
+Authenticating: opens browser...
 ```
-- After it, tCLI will open your default browser and you will need to authorize in the TwitchAPI.
-- You will get sent to the "localhost" with your auth token. 
-- Copy it and paste it, back in cmd, here:
+ - You should authorize in the TwitchAPI.  
+ - Then, you will  get sent  to the "localhost" with your auth token.
+ - It you should copy-pasted back in your cmd:
 ```
-token: [your token]
+authToken: [your token]
 ```
-- After it, you will probably see this, if you did all right:
+And there you go - you've did it!
+Here's your little reward!
 ```
 Successful!
 ```
-You're done!
 ### Expiring auth tokens
 Somewhen your token will be expired, but dont worry you're safe.<br>
 You will get message about it and you will proceeded to reauth:
@@ -36,17 +35,17 @@ You will be proceeded to authentication.
 ```
 After that, you will again be able to use tCLI!
 ### Switching accounts
-If you need to logout from your account, and login in different, just type and repeate auth process:
+Your account based on which you've been signup in twitch itself.<br>
+So, just switch to different account in your default browser and run auth process again:
 ```
 tcli auth
 ```
-#### _You need to switch your account on twitch in default browser, before you go to switching in tCLI._<br>
 ### Deleting your auth data
 It stored in your documents folder:
 ```
 C:/Users/[Username]/Documents/tCLI
 ```
-- Delete ".cfg" file.
+- Delete "auth.json" file.
 
 ## Usage
 ```
@@ -55,8 +54,11 @@ tcli [command] [username] [...arguments]
 Simple `tcli` will show live streams your followings.
 ### Commands
 > Tip: you can see basic version of this, in tCLI itself, by using: `tcli help`.
-- `f` sets titles to full
+- `-f` sets titles to full
 - `auth` for repeating auth process
+- `clips [username]` gets 100 clips from specified user sorted by views
+  - `-id [clipID]` returns data about specified clip
+    - `-c [clipID]` copies link to the clip
 - `following [from] [to]` returns boolean of check if "from" user is following "to" user
 - `follows` returns your follows
   - `[username]` returns follows of that specified username
