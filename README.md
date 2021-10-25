@@ -17,7 +17,7 @@ Authenticating: opens browser...
 ```
  - You should authorize in the TwitchAPI.  
  - Then, you will  get sent  to the "localhost" with your auth token.
- - It you should copy-pasted back in your cmd:
+ - You should copy-pasted it back in your cmd:
 ```
 authToken: [your token]
 ```
