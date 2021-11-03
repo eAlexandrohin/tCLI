@@ -3,7 +3,7 @@
 Little, very simple [CLI](https://en.wikipedia.org/wiki/Command-line_interface) of twitch for Windows.<br>
 Pronounce like that: "tickly", as in "tickle".
 ## Installation
-[Download](https://github.com/eAlexandrohin/tCLI/releases/tag/v2.0), install it and you good to go.
+[Download](https://github.com/eAlexandrohin/tCLI/releases/tag/v2.1), install it and you good to go.
 ## Auth
 Firstly, you need to authenticate.
 Just type in cmd:
@@ -78,6 +78,8 @@ Simple `tcli` will show live streams your followings.
 - `vods` returns vods by the time, from your follows
   - `[username]` returns vods of the specified username
   - `-f` sets titles to full
+## Known bugs
+1. If you paste link of clip to cmd and in your link have "&" character, cmd thinks that string after it is a command, so tries to exec it, but its not.<br>Please, remove it from link, if possible for more stability.
 # Community
 Feel free to post errors, contact me and stuff.<br>You're welcome!
 ## Credits 
