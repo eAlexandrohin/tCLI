@@ -80,7 +80,7 @@ Simple `tcli` will show live streams your followings.
   - `[username]` returns vods of the specified username
   - `-f` sets titles to full
 ## Known bugs
-1. If you paste link of clip to cmd and in your link have "&" character, cmd thinks that string after it is a command, so tries to exec it, but its not.<br>Please, remove it from link, if possible for more stability.
+1. If you paste link of clip to cmd and in your link have "**_&_**" character, cmd thinks that string after it is a command, so tries to exec it, but its not.<br>Please, remove it from link, if possible for more stability.
 # Community
 Feel free to post errors, contact me and stuff.<br>You're welcome!
 ## Credits 
