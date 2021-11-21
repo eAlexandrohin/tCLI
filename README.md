@@ -1,5 +1,6 @@
 # tCLI
-![tCLI2_final](https://user-images.githubusercontent.com/46440248/128658059-9ddeecfb-f60a-4cfa-8392-e33c19f63fe5.png)<br>
+![tCLI_icon_v2](https://user-images.githubusercontent.com/46440248/142761121-ea1c9825-bec4-419b-8f29-5f6388a9411b.png)<br>
+<!-- ![tCLI2_final](https://user-images.githubusercontent.com/46440248/128658059-9ddeecfb-f60a-4cfa-8392-e33c19f63fe5.png)<br> -->
 Little, very simple [CLI](https://en.wikipedia.org/wiki/Command-line_interface) of twitch for Windows.<br>
 Pronounce like that: "tickly", as in "tickle".
 ## Installation
