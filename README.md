@@ -61,6 +61,8 @@ Simple `tcli` will show live streams your followings.
   - `-id [clipID]` returns data about specified clip
     - `-c [clipID]` copies link to the clip
   - `-a/-y/-m/-w/-d` returns clips top of clips for `all time/year/month/week/day`
+- `directory [gameName]/all` returns streamers from specified directory or from all
+> If you want to select Just Chatting category or anything more than one word, use quotation marks:<br>`tcli directory "just chatting"`.
 - `following [from] [to]` returns boolean of check if "from" user is following "to" user
 - `follows` returns your follows
   - `[username]` returns follows of that specified username
