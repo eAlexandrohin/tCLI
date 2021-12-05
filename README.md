@@ -47,6 +47,7 @@ It stored in your documents folder:
 C:/Users/[Username]/Documents/tCLI
 ```
 - Delete "auth.json" file.
+ > DO NOT OPEN FILE ON STREAM
 
 ## Usage
 ```
