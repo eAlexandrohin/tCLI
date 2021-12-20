@@ -89,6 +89,7 @@ Simple `tcli` will show live streams your followings.
 1. If you paste link of clip to cmd and in your link have "**_&_**" character, cmd thinks that string after it is a command, so tries to exec it, but its not.<br>Please, remove it from link, if possible for more stability.
 # Community
 Feel free to post errors, contact me and stuff.<br>You're welcome!
+> Hey, I know about [`Semantic Versioning`](https://semver.org/) - but, let me do my own little thing down here)
 ## Credits 
 Uses NodeJS and such modules:<br>[`node-fetch`](https://github.com/node-fetch/node-fetch), [`express`](https://expressjs.com/), [`open`](https://www.npmjs.com/package/open), [`twitch-m3u8`](https://github.com/dudik/twitch-m3u8),<br>[`readline`](https://nodejs.org/api/readline.html), [`moment`](https://momentjs.com/), [`copy-paste`](https://github.com/xavi-/node-copy-paste), [`path`](https://nodejs.org/api/path.html),<br>[`os`](https://nodejs.org/api/os.html), [`fs`](https://nodejs.org/api/fs.html).
 ___
