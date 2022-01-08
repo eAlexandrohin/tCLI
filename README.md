@@ -66,8 +66,8 @@ Simple `tcli` will show live streams your followings.
 - `directory [gameName]/all` returns streamers from specified directory or from all
 > If you want to select Just Chatting category or anything more than one word, use quotation marks:<br>`tcli directory "just chatting"`.
 - `following [from] [to]` returns boolean of check if "from" user is following "to" user
-- `follows` returns your follows
-  - `[username]` returns follows of that specified username
+- `follows` returns your follows with timestamps
+  - `[username]` returns follows of that specified username with timestamps
 - `help` returns all avaliable commands
   - `[command]` for specified command
 - `link [username]` copies link to the stream of specified streamer, for using in VLC, for example, default quality is source
@@ -89,7 +89,8 @@ Simple `tcli` will show live streams your followings.
 1. If you paste link of clip to cmd and in your link have "**_&_**" character, cmd thinks that string after it is a command, so tries to exec it, but its not.<br>Please, remove it from link, if possible for more stability.
 # Community
 Feel free to post errors, contact me and stuff.<br>You're welcome!
-> Hey, I know about [`Semantic Versioning`](https://semver.org/) - but, let me do my own little thing down here)
+> Hey, I know about [`Semantic Versioning`](https://semver.org/) - but, let me do my own little thing down here)<br>
+> And about [`yargs`](https://github.com/yargs/yargs) too, and bout it's predecessor [`optimist`](https://www.npmjs.com/package/optimist) and bout his replacement by his own creator - [`minimist`](https://www.npmjs.com/package/minimist). <br>:)
 ## Credits 
 Uses NodeJS and such modules:<br>[`node-fetch`](https://github.com/node-fetch/node-fetch), [`express`](https://expressjs.com/), [`open`](https://www.npmjs.com/package/open), [`twitch-m3u8`](https://github.com/dudik/twitch-m3u8),<br>[`readline`](https://nodejs.org/api/readline.html), [`moment`](https://momentjs.com/), [`copy-paste`](https://github.com/xavi-/node-copy-paste), [`path`](https://nodejs.org/api/path.html),<br>[`os`](https://nodejs.org/api/os.html), [`fs`](https://nodejs.org/api/fs.html).
 ___
