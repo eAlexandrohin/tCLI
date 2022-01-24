@@ -14,7 +14,7 @@ tcli
 
 It will automaticly start authentication by opening your default browser.
 ```
-Authenticating: opens browser...
+Authenticating: opening browser...
 ```
  - You should authorize in the TwitchAPI.  
  - Then, you will  get sent  to the "localhost" with your auth token.
@@ -41,6 +41,13 @@ So, just switch to different account in your default browser and run auth proces
 ```
 tcli auth
 ```
+### Updates
+tCLI will notify you about a new update, like this:
+```
+Update avaliable: v2.3.2.
+See: https://github.com/eAlexandrohin/tCLI/releases/latest
+```
+It checks every launch.
 ### Deleting your auth data
 It stored in your documents folder:
 ```
@@ -60,11 +67,17 @@ Simple `tcli` will show live streams your followings.
 - `-v` returns current version of tCLI
 - `auth` for repeating auth process
 - `clips [username]` gets 100 clips from specified streamer sorted by views for 30 days
+  - `-dl [username]` downloads clips from specified user for specified time
+  > location: `C:/Users/[Username]/Documents/tCLI/clips`
+    - `-n` downloads one exact cilp, that you need
+    - `-a/-y/-m/-w/-d` timestamps
   - `-id [clipID]` returns data about specified clip
     - `-c [clipID]` copies link to the clip
   - `-a/-y/-m/-w/-d` returns clips top of clips for `all time/year/month/week/day`
 - `directory [gameName]/all` returns streamers from specified directory or from all
 > If you want to select Just Chatting category or anything more than one word, use quotation marks:<br>`tcli directory "just chatting"`.
+- `download [URL]` downloads .mp4 file
+> Must be through HTTPS-protocol.
 - `following [from] [to]` returns boolean of check if "from" user is following "to" user
 - `follows` returns your follows with timestamps
   - `[username]` returns follows of that specified username with timestamps
@@ -96,6 +109,6 @@ If you are a member of a Twitch Staff or working at Twitch and have questions, c
 Or anyone who has something:<br>
 Email me at contactealexandrohin@gmail.com
 ## Credits 
-Uses NodeJS and such modules:<br>[`node-fetch`](https://github.com/node-fetch/node-fetch), [`express`](https://expressjs.com/), [`open`](https://www.npmjs.com/package/open), [`twitch-m3u8`](https://github.com/dudik/twitch-m3u8),<br>[`readline`](https://nodejs.org/api/readline.html), [`moment`](https://momentjs.com/), [`copy-paste`](https://github.com/xavi-/node-copy-paste), [`path`](https://nodejs.org/api/path.html),<br>[`os`](https://nodejs.org/api/os.html), [`fs`](https://nodejs.org/api/fs.html).
+Uses NodeJS and such modules:<br>[`node-fetch`](https://github.com/node-fetch/node-fetch), [`express`](https://expressjs.com/), [`open`](https://www.npmjs.com/package/open), [`twitch-m3u8`](https://github.com/dudik/twitch-m3u8),<br>[`readline`](https://nodejs.org/api/readline.html), [`moment`](https://momentjs.com/), [`copy-paste`](https://github.com/xavi-/node-copy-paste), [`path`](https://nodejs.org/api/path.html),<br>[`os`](https://nodejs.org/api/os.html), [`fs`](https://nodejs.org/api/fs.html), [`https`](https://nodejs.org/api/https.html), [`nodejs-file-downloader`](https://www.npmjs.com/package/nodejs-file-downloader),<br>[`cli-progress`](https://www.npmjs.com/package/cli-progress), [`ansi-colors`](https://www.npmjs.com/package/ansi-colors).
 ___
 ##### License: __MIT__
