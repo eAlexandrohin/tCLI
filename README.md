@@ -116,6 +116,7 @@ Simple `tcli` will show live streams of your follows.
 - `teams` returns all teams that you had joined
   - `[teamName]` returns all members of the specified team
   - `-a [username]` returns all teams that specified streamer had joined
+- `update` updates tCLI 
 - `version` same as `-v`, see above
 - `vods` returns vods by the time, from your follows
   - `[username]` returns vods of the specified username
