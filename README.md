@@ -41,15 +41,37 @@ So, just switch to different account in your default browser and run auth proces
 ```
 tcli auth
 ```
+### Files
+All data, information and content used, gathered and downloaded are stored in app folder in your Documents:
+```
+C:/Users/Alex/Documents/tCLI
+```
 ### Updates
 tCLI will notify you about a new update, like this:
 ```
 Update avaliable: v2.3.2.
+You can update by running: "tcli update"
 See: https://github.com/eAlexandrohin/tCLI/releases/latest
 ```
 It checks every launch.
-### Deleting your auth data
-It stored in your documents folder:
+To update, simply use:
+```
+tcli update
+```
+ - It will download setup file.
+ - And open it.
+ - You should give admin rigths, if it asked, otherwise it will cancelled.
+ - After you saw setup window you must close your original cmd. It will tell it to you.
+ - Install it.
+ - Done!
+Now, you can run it again.
+---
+Last version setup installed always stored in update folder at app:
+```
+.../tCLI/update/
+```
+### Your auth data
+It stored in app folder:
 ```
 C:/Users/[Username]/Documents/tCLI
 ```
@@ -109,6 +131,6 @@ If you are a member of a Twitch Staff or working at Twitch and have questions, c
 Or anyone who has something:<br>
 Email me at contactealexandrohin@gmail.com
 ## Credits 
-Uses NodeJS and such modules:<br>[`node-fetch`](https://github.com/node-fetch/node-fetch), [`express`](https://expressjs.com/), [`open`](https://www.npmjs.com/package/open), [`twitch-m3u8`](https://github.com/dudik/twitch-m3u8),<br>[`readline`](https://nodejs.org/api/readline.html), [`moment`](https://momentjs.com/), [`copy-paste`](https://github.com/xavi-/node-copy-paste), [`path`](https://nodejs.org/api/path.html),<br>[`os`](https://nodejs.org/api/os.html), [`fs`](https://nodejs.org/api/fs.html), [`https`](https://nodejs.org/api/https.html), [`nodejs-file-downloader`](https://www.npmjs.com/package/nodejs-file-downloader),<br>[`cli-progress`](https://www.npmjs.com/package/cli-progress), [`ansi-colors`](https://www.npmjs.com/package/ansi-colors).
+Uses NodeJS and such modules:<br>[`node-fetch`](https://github.com/node-fetch/node-fetch), [`express`](https://expressjs.com/), [`open`](https://www.npmjs.com/package/open), [`twitch-m3u8`](https://github.com/dudik/twitch-m3u8),<br>[`readline`](https://nodejs.org/api/readline.html), [`moment`](https://momentjs.com/), [`copy-paste`](https://github.com/xavi-/node-copy-paste), [`path`](https://nodejs.org/api/path.html),<br>[`os`](https://nodejs.org/api/os.html), [`fs`](https://nodejs.org/api/fs.html), [`https`](https://nodejs.org/api/https.html), [`nodejs-file-downloader`](https://www.npmjs.com/package/nodejs-file-downloader),<br>[`cli-progress`](https://www.npmjs.com/package/cli-progress), [`ansi-colors`](https://www.npmjs.com/package/ansi-colors), [`child_process`](https://nodejs.org/api/child_process.html).
 ___
 ##### License: __MIT__
