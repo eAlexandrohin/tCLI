@@ -127,9 +127,7 @@ Feel free to post errors, contact me and stuff.<br>You're welcome!
 > Hey, I know about [`Semantic Versioning`](https://semver.org/) - but, let me do my own little thing down here)<br>
 > And about [`yargs`](https://github.com/yargs/yargs) too, and bout it's predecessor [`optimist`](https://www.npmjs.com/package/optimist) and bout his replacement by his own creator - [`minimist`](https://www.npmjs.com/package/minimist). <br>:)
 # Legal
-If you are a member of a Twitch Staff or working at Twitch and have questions, claims or anything - I will cooperate as much as I can.<br>
-Or anyone who has something:<br>
-Email me at contactealexandrohin@gmail.com
+If you are a member of a Twitch Staff or working at Twitch and have questions, claims or anything - I will cooperate as much as I can. Or anyone who has something, email me at:<br>contactealexandrohin@gmail.com
 ## Credits 
 Uses NodeJS and such modules:<br>[`node-fetch`](https://github.com/node-fetch/node-fetch), [`express`](https://expressjs.com/), [`open`](https://www.npmjs.com/package/open), [`twitch-m3u8`](https://github.com/dudik/twitch-m3u8),<br>[`readline`](https://nodejs.org/api/readline.html), [`moment`](https://momentjs.com/), [`copy-paste`](https://github.com/xavi-/node-copy-paste), [`path`](https://nodejs.org/api/path.html),<br>[`os`](https://nodejs.org/api/os.html), [`fs`](https://nodejs.org/api/fs.html), [`https`](https://nodejs.org/api/https.html), [`nodejs-file-downloader`](https://www.npmjs.com/package/nodejs-file-downloader),<br>[`cli-progress`](https://www.npmjs.com/package/cli-progress), [`ansi-colors`](https://www.npmjs.com/package/ansi-colors), [`child_process`](https://nodejs.org/api/child_process.html).
 ___
