@@ -44,7 +44,7 @@ tcli auth
 ### Files
 All data, information and content used, gathered and downloaded are stored in app folder in your Documents:
 ```
-C:/Users/Alex/Documents/tCLI
+C:/Users/[Username]/Documents/tCLI
 ```
 ### Updates
 tCLI will notify you about a new update, like this:
