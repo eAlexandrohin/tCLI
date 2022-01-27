@@ -82,7 +82,7 @@ C:/Users/[Username]/Documents/tCLI
 ```
 tcli [command] [username] [...arguments]
 ```
-Simple `tcli` will show live streams your followings.
+Simple `tcli` will show live streams of your follows.
 ### Commands
 > Tip: you can see basic version of this, in tCLI itself, by using: `tcli help`.
 - `-f` sets titles to full
