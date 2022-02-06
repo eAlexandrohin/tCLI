@@ -88,7 +88,7 @@ Simple `tcli` will show live streams of your follows.
 - `-f` sets titles to full
 - `-v` returns current version of tCLI
 - `auth` for repeating auth process
-- `clips [username]` gets 100 clips from specified streamer sorted by views for 30 days
+- `clips [username]` gets 100 clips from specified streamer sorted by views for week
   - `-dl [username]` downloads clips from specified user for specified time
   > location: `C:/Users/[Username]/Documents/tCLI/clips`
     - `-n` downloads one exact cilp, that you need
